@@ -1,0 +1,388 @@
+@charset "utf-8";
+/*CSS document*/
+
+.hidden
+{
+	display: none;
+}
+
+@font-face {
+    font-family: 'league_spartanbold';
+    src: url('leaguespartan-bold-webfont.woff2') format('woff2'),
+         url('leaguespartan-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('roboto-bold-webfont.woff2') format('woff2'),
+         url('roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body 
+{
+	font-family: 'league_spartanbold',times, sans-serif;
+	font-size: 14px;
+	/*color: #000;*/
+	background-color: #ededed;
+
+	/*background-image:url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%234f324f' fill-opacity='0.08'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");*/
+}
+
+#siteContainer
+{
+	width:980px;
+	margin: 0 auto;
+	background-color: #fff;
+	/*padding-left: 20px;
+	padding-right: 20px;*/
+	padding-top: 0.5px;
+}
+
+#header 
+{
+	font-size: 56px;
+	color: #000;
+	font-weight: 900;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+
+#header  span
+{
+	font-weight: bold;
+	color: #5d7031;
+/*    -webkit-text-stroke: 5px #75600b;*/
+    font-size: 80px;
+    /*padding-top: 50px;*/
+
+}
+#header:first-letter
+{
+	font-size: 2.5em;
+    float: left;
+   /* margin-top: .15em;
+*/
+}
+
+#subheader
+{
+	font-size: 18px;
+	margin-left: 50px;
+
+}
+
+#grayBox
+{
+	height: 400px;
+	width: 980px;
+
+	background-color: #5f6053;
+	opacity: 0.1;
+	position: absolute;
+	/*margin-top: 200px;*/
+}
+
+img{
+	width: 70%;
+	margin-top: 60px;
+	margin-bottom: -120px;
+	/*border-top: 10px solid #000;
+      border-left: 10px solid transparent;*/
+
+}
+
+
+
+#heroSection p 
+
+{
+	font-family: 'robotobold', sans-serif;
+	font-size: 28px;
+	letter-spacing: 3px;
+	font-weight: 900;
+	/*margin-top: 60px;*/
+	/*margin-bottom: -15px;*/
+	margin-left: 480px;
+
+
+	
+}
+
+
+#heroSection p span{
+	display: block;
+	
+}
+#pointer {
+      width: 300px;
+      height: 5px;
+      position: relative;
+      background: #fff;
+      margin-bottom:  2px;
+    }
+   
+    
+
+
+
+#history p
+{
+	display: inline-block;
+	/*border-bottom: 30px;*/
+	font-family: 'league_spartanbold',times, sans-serif;
+	font-size: 24px;
+	/*width: 350px;
+	height: 150px;*/
+	margin-top: 80px;
+	padding: 20px;
+	/*background-color: #3456;*/
+	margin-left: 20px;
+	border-left: 2px;
+
+}
+
+#history p:first-letter
+{
+	font-size: 1.5em;
+    float: left;
+    margin-top: -.23em;
+
+}
+
+#history p
+{
+	border-left: 2.5px;
+	border-style: solid;
+
+}
+
+#promo
+{
+	display: flex;
+	justify-content:  flex-start;
+	margin-top: 50px;
+	/*margin-left: 20px;*/
+}
+.promoText
+{
+	width: 280px;
+	height: 180px;
+	border-top: 1.5px;
+	border-left: 1.5px;
+	border-color: #477de0;
+	border-style: solid;
+	display: flex;
+	justify-content:  space-evenly;
+	font-family: 'league_spartanbold',times, sans-serif;
+	font-size: 18px;
+	padding: 10px;
+	margin-right: 25px;
+	line-height: 1.6;
+
+	
+}
+
+#badgeName
+{
+	font-family: 'league_spartanbold',times, sans-serif;
+	font-size: 24px;
+	/*padding-bottom: -5px;*/
+	/*margin-left: 400px;*/
+	
+}
+#flag {
+      width: 110px;
+      height: 56px;
+      box-sizing: content-box;
+      padding-top: 15px;
+      position: relative;
+      background: #5d7031;
+      color: white;
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      text-align: center;
+      text-transform: uppercase;
+      margin-left: 400px;
+      
+    }
+    #flag:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      border-bottom: 13px solid #eee;
+      border-left: 55px solid transparent;
+      border-right: 55px solid transparent;
+    }
+
+
+    #differance img
+    {
+    	width: 40%;
+    	/*opacity: 0.89;*/
+    	margin-top: 20px;
+    	margin-left: 20px;
+
+    }
+
+#clubs
+{
+	font-family: 'robotobold', sans-serif;
+	font-size: 28px;
+	letter-spacing: 3px;
+	font-weight: 900;
+	margin-left: 20px;
+	background-color: #fff;
+	margin-top:  100px;
+
+
+}
+
+
+#aside 
+{
+	width: 280px;
+	height: 160px;
+	border-top: 3px;
+	
+	border-bottom: 3px;
+	border-color: #477de0;
+	border-style: solid;
+	font-family: 'league_spartanbold',times, sans-serif;
+	font-size: 16px;
+	padding: 20px;
+	margin-left:  480px;
+	margin-top: -150px;
+	line-height: 1.6;
+}
+
+
+#grayBox2
+{
+	height: 400px;
+	width: 980px;
+
+	background-color: #5f6053;
+	opacity: 0.1;
+	position: absolute;
+}
+
+
+
+/*.circle {
+      width: 10px;
+      height: 10px;
+      background: #477de0 ;
+      border-radius: 50%;
+      margin-left:20px;
+      margin-top: 100px;
+    }
+*/
+
+
+#works p
+{
+	margin-left:20px;
+    margin-top: 150px;
+    font-family: 'robotobold', sans-serif;
+	font-size: 28px;
+	letter-spacing: 3px;
+	font-weight: 900;
+	
+
+
+}
+#works  span
+{
+	font-weight: bold;
+	color: #477de0 ;
+
+}
+
+
+#works ol li
+{
+	font-family: 'league_spartanbold',times, sans-serif;
+	font-size: 20px;
+	margin-left: 40px;
+	list-style-type: square;
+	/*color:  #5d7031;*/
+	margin-top: 20px;
+
+}
+/**/
+
+
+
+#info p 
+{
+	font-family: 'league_spartanbold',times, sans-serif;
+	font-size: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+	margin-top: 150px;
+	padding: 20px;
+	/*border-top: 2px;*/
+	
+	border-left:  3px;
+	border-style: solid;
+	border-color: #5d7031;
+	
+	letter-spacing: 1.2px;
+
+}
+
+#info h2
+{
+	margin-left:400px;
+    margin-top: 100px;
+    font-family: 'robotobold', sans-serif;
+	font-size: 28px;
+	letter-spacing: 3px;
+	font-weight: 900;
+
+}
+
+#info img
+{
+	width: 40%;
+	margin-left: 58px;
+	
+}
+
+#info p:first-letter
+{
+	font-size: 3em;
+    float: left;
+    margin-bottom: -5px;
+    margin-top: -7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
